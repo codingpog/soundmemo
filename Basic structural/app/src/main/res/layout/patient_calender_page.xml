@@ -22,15 +22,14 @@
         android:layout_below="@id/calendarView"
         >
     </TextView>
+
     <TextView
         android:id="@+id/time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Time: 7:00 AM"
-        android:textSize="20sp"
         android:layout_below="@id/acticity1"
-        >
-    </TextView>
+        android:text="Time: 7:00 AM"
+        android:textSize="20sp"></TextView>
 
     <TextView
         android:id="@+id/tip"

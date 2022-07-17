@@ -13,8 +13,11 @@ public class addPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_page);
-        button = (Button)findViewById(R.id.Time_set);
-        button_done = (Button)findViewById(R.id.addDone);
+
+//        button = (Button) findViewById(R.id.Time_set);
+//        button.setBackgroundColor(Color.parseColor("#F8F8FF"));
+
+        button_done = (Button) findViewById(R.id.addDone);
         button_done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -22,4 +25,5 @@ public class addPage extends AppCompatActivity {
             }
         });
     }
+
 }
