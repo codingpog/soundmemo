@@ -31,13 +31,15 @@
             android:layout_marginStart="8dp"
             android:layout_centerVertical="true"
             android:layout_toEndOf="@+id/back_to_calendar"
-            android:text="Back to Calender"></TextView>
+            android:text="Back to Calender">
+
+        </TextView>
     </RelativeLayout>
 <!--    Button for adding task-->
     <Button
         android:id="@+id/add_button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
@@ -45,14 +47,14 @@
         android:layout_marginBottom="0dp"
         android:background="@drawable/round_btn"
         android:text="+"
-        android:textSize="40dp" />
+        android:textSize="20dp" />
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@+id/actionbar"
         android:id="@+id/taskListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="5dp"
-        android:dividerHeight="3dp" />
+        android:layout_below="@+id/actionbar"
+        android:layout_marginTop="0dp"
+         />
 </RelativeLayout>
