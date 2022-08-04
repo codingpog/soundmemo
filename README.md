@@ -27,6 +27,21 @@ https://csil-git1.cs.surrey.sfu.ca/cmpt276-group8/cmpt276-project.git
 ```
 ## File describe:
 
+**activity_events_list.xml**
+This file will show the list of the selected date tasks.
+
+**activity_individual_task_page.xml**
+This file shows individual task.
+
+**avtivity_role_selection.xml**
+This file is shows the patient and caregiver roles selection.
+
+**activity_sign_up_page.xml**
+This file is for the signup page, caregiver or the patient's information.
+
+**item.xml**
+This file is for each activity on the list.
+
 **add_page.xml**
 This file contains the basic user interface design for the caregiver to set reminders.
 
@@ -37,14 +52,37 @@ This file includes the basic user interface design for the calendar component an
 This file contains the basic user interface design for the patient reminder interface.
 **Some features still unimplemented.**
 
-**login_page.xml**
+**activity_login.xml**
 This file includes the basic user interface design of the login interface.
 
 **patient_calender_page.xml**
 This file is the basic page that the patient can't do anything with, and it contains the basic user interface design for that page.
 
+**ToastUtils.java**
+Tool
+
+**Utils.java**
+Tool for insert into calendar.
+
+**AlarmReceiver.java**
+Check it's time to jump to the incoming activity page.
+
+**CalendarActivity.java**
+The functions to implement calendar activity.
+
+**EventListAdapter.java**
+The functions adapter for eventlist page.
+
+**RoleSelection.java**
+The functions to implement role selection page.
+
+**SignUpPage.java**
+The functions for the signup pgae.
+
 **MainActivity.java**
 This file contains the API for verifying account and password functions with Google account login. 
+
+
 **Still not in line with the actual use of the scene.**
 
 ## Authors
