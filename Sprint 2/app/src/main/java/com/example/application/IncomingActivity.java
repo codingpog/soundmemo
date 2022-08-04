@@ -159,7 +159,7 @@ public class IncomingActivity extends AppCompatActivity {
                     tips_detail.setText(currentTask.getTips());
                     time_detail.setText(currentTask.getTime());
                     String imageUrl = currentTask.getImageUrl();
-                    Glide.with(IncomingActivity.this).load(imageUrl).into(task_image);
+                    Glide.with(getApplicationContext()).load(imageUrl).into(task_image);
                     // Set the alarm for the current task
                     setAlarm();
             }

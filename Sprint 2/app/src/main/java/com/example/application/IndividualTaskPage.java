@@ -96,7 +96,7 @@ public class IndividualTaskPage extends AppCompatActivity {
                         completion_status.setText("Not Complete");
 
                         String imageUrl = taskSelected.getImageUrl();
-                        Glide.with(IndividualTaskPage.this).load(imageUrl).into(task_image2);
+                        Glide.with(getApplicationContext()).load(imageUrl).into(task_image2);
                     }
                 }
 
@@ -128,7 +128,7 @@ public class IndividualTaskPage extends AppCompatActivity {
                         completion = true;
 
                         String imageUrl = taskSelected.getImageUrl();
-                        Glide.with(IndividualTaskPage.this).load(imageUrl).into(task_image2);
+                        Glide.with(getApplicationContext()).load(imageUrl).into(task_image2);
                     }
                 }
 
