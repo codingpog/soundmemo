@@ -4,11 +4,15 @@ import android.telecom.Call;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
 public class EventListAdapter extends RecyclerView.Adapter<EventListAdapter.MyViewHolder> {
@@ -33,9 +37,12 @@ public class EventListAdapter extends RecyclerView.Adapter<EventListAdapter.MyVi
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         Task task = list.get(position);
+
         holder.activity.setText(String.valueOf(task.getTask_name()));
         holder.tips.setText(String.valueOf(task.getTips()));
         holder.time.setText(String.valueOf(task.getTime()));
+
+
 
         holder.itemView.setOnClickListener(view -> {
             mItemListener.onItemClick(list.get(position));//

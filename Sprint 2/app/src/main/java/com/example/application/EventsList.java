@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.example.application.utils.RecycleViewInterface;
 import com.example.application.utils.Utils;
 import com.google.firebase.database.DataSnapshot;
@@ -23,6 +24,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -35,8 +37,10 @@ public class EventsList  extends addPage implements RecycleViewInterface {
     ArrayList<Task> list;
     EventListAdapter myAdapter;
     DatabaseReference databaseReference;
+    FirebaseStorage mStorage;
     //ImageView image_back;
     RelativeLayout mylyout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +66,7 @@ public class EventsList  extends addPage implements RecycleViewInterface {
 
         list = new ArrayList<>();
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
 
         // Individual task jump to its own page
         myAdapter = new EventListAdapter(this, list, new EventListAdapter.ItemClickListener() {

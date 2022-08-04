@@ -9,6 +9,7 @@ public class Task {
     private String tips;
     private String time;
     private String imageUrl;
+
     private int hour;
     private int minute;
     private int timestamp; // Store time as integer number
