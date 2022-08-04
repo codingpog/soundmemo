@@ -38,18 +38,18 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="35dp"
         android:background="?attr/colorPrimary"
         android:backgroundTint="#2894ff"
         android:elevation="4dp" />
     <!--Task Image-->
     <ImageView
         android:id="@+id/task_image2"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/toolbar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:layout_below="@id/toolbar"
         android:src="@drawable/drug" />
 
     <!--Show Activity -->
@@ -161,6 +161,7 @@
             android:orientation="vertical"
             android:layout_marginStart="70dp">
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/completion_status"

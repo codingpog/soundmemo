@@ -57,6 +57,7 @@
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/btn_custom.xml" value="0.1415" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/button_task_complete.xml" value="0.16" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/complete_btn_state.xml" value="0.16" />
+        <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.23" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.256" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_baseline_art_track_24.xml" value="0.154" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.187" />
@@ -66,6 +67,7 @@
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_launch_icon_blue.xml" value="0.187" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_navigation_white.xml" value="0.187" />
+        <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_round_add_circle_24.xml" value="0.23" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.187" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/ic_slideshow_black_24dp.xml" value="0.16" />
         <entry key="..\:/cmpt276-project/Sprint 2/app/src/main/res/drawable/left_arrow.xml" value="0.1605" />
@@ -97,7 +99,6 @@
         <entry key="app/src/main/res/drawable/round_btn.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/splash_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_events_list.xml" value="0.1105072463768116" />
-        <entry key="app/src/main/res/layout/activity_individual_task_page.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.11" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_role_selection.xml" value="0.165" />
